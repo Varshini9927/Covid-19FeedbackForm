@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://i1.trekearth.com/photos/61/lalithamahalpalacehotel_8205.jpg);
+    no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align:center;
+}
+.container h2{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 100;
+}
+input{
+    width: 70%;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: none;
+}
+button{
+    background-color: green;
+    width: 20%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff000;
+}
+.container p{
+    text-align: left;
+    color: white;
+    font-family: cursive;
+}
+label{
+    margin-left: -110px;
+}
